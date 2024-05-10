@@ -1,0 +1,242 @@
+:root {
+    --bg1: #615f5f;
+    --bg2: rgb(44, 42,42);
+    --body: rgb(95, 86, 86);
+    --brand: #f2b03b;
+    --pink: #f506c1;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+
+}
+ 
+
+a {
+ text-decoration: none;
+}
+
+.p-light {
+    color: var(--p);
+}
+
+#about{
+    background-color: var(--bg1);z
+    position: relative;
+    z-index: 1;
+}
+#about h2{
+    font-weight: 800;
+    z-index: 1;
+    color: var(rgb(221, 221, 221))
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient( to right, hsla(0, 2%, 33%, 0.856), rgba(44, 42, 42, 0.315)),
+    url(https://blog.nature.org/wp-content/uploads/2022/09/olympia-oysters-hog-island-2145.jpg?w=1024);
+    background-size: cover;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, hsla(44, 85%, 60%, 0.829) ,rgba(121, 120, 117, 0.884));
+}
+
+.navbar .nav-link {
+    color:#ffffff;
+}
+
+.navbar #navbarNav .nav-link.active {s
+    color: var(--brand) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important;
+}
+
+.navbar-brand img {
+    width: 50%;
+    height: auto;
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+  
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand {
+         background-color: transparent;
+         color:  var(--bnrand);
+         border-color:  var(--brand);
+         S
+}
+
+.btn-outline-brand :hover {
+    background-color:  var(--brand);
+    color:  var(--brand);S
+}
+ section {
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: #454547;
+ }
+
+ #services{
+    background-color:#f2b03b;
+ }
+ .icon-box-img{
+    width: 40%;
+ }
+
+ .card {
+    transition: background-color 0.3s, color 0.3s;
+ }
+
+ .card:hover {
+    background-color:  var(--white);
+ }
+
+ .card:hover .card-title,
+ .card:hover .card-text,
+ .card:hover .btn {
+    color: #ffffff;
+ }
+
+ #cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient( to right, hsla(0, 2%, 33%, 0.856), rgba(44, 42, 42, 0.315)),
+    url(https://blog.nature.org/wp-content/uploads/2022/09/olympia-oysters-hog-island-2145.jpg?w=1024);
+    min-height: 70vh;
+ }
+
+ #reviews {
+    background-color: #f2b03b;
+ }
+
+ .testimonials {
+    padding: 30px;
+    background-color: var(--bg1);
+    border-radius: 1px;
+
+ }
+  .testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+
+  }
+
+  #reviews a {
+    text-decoration: none;
+    color:var(--brand);
+  }
+
+  .faq-section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .accordion-item {
+    margin-bottom: 20px; /* add margin Bottom For Spacing */
+    border-radius: 0 !important;
+
+  }
+  .accordion-button {
+    background-color: #bee7ec;
+    border: none;
+    border-bottom:  1px solid #ffffff;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a34;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .accordion-body {
+    border-left:  3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #b0e3f0;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+
+  }
+
+  .accordion-button:focus {
+    box-shadow:  none;
+
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: var(--bg1);
+
+  }
+
+  /* Hover Effect For Faq questions */
+  .accordion-button:hover {
+    background-color:  var(--brand); /* Change Backgrounf Color On hover */
+    color: var(--bg1) /* Change text color on hover */
+
+  }
+
+  /* adjust Accordiuon icon */
+  .accordion-buttton::after {
+    font-family: "font Awesom 5 Free";
+    content: ""; /* Plus Icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+  }
+
+  .accordion-button [aria-expanded="ture"]::after {
+    content: ""; /* minus icon */
+  }
+
+  /* Footer */
+  #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bg1);
+
+  }
+
+  #footer ul.list-unstyled li a {
+    color: #ffffff;
+
+  }
+
+  #footer ul.list-unstyled li:hover a {
+    color: var(--brand);
+
+
+  }
+
+  #revies h2, #services h2 {
+    color: var(--bg1);
+
+  }
+
+  .btn-outline-light {
+    border-color: #f2b03b;
+    color: #f2b03b;
+  }
